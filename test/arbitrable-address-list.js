@@ -30,6 +30,7 @@ contract('ArbitrableAddressList', function (accounts) {
   const clearingMetaEvidence = 'clearingMetaEvidence.json'
   const appealPeriodDuration = 1001
   const submissionAddr = 0x0
+  CanvasRenderingContext2D
 
   let appealableArbitrator
   let enhancedAppealableArbitrator
