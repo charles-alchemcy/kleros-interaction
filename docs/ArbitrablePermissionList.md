@@ -2,6 +2,7 @@
 
 The Arbitrable Permission List is an arbitrator curated registry. Anyone can submit an item with a deposit. If no one challenges the submission within a defined time period, the item is added to the registry.
 
+
 Anyone can challenge and also post a deposit. If someone does, a dispute is created. The winner of the dispute gets the deposit of the other party and the item is added or cleared accordingly.
 
 To make a request, parties have to deposit a stake and the arbitration fees. If the arbitration fees change between the submitter's payment and the challenger's payment, a part of the submitter stake can be used as an arbitration fee deposit.

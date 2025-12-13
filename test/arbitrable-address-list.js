@@ -14,7 +14,8 @@ const EnhancedAppealableArbitrator = artifacts.require(
   './standard/arbitration/EnhancedAppealableArbitrator.sol'
 )
 
-contract('ArbitrableAddressList', function(accounts) {
+
+contract('ArbitrableAddressList', function (accounts) {
   const governor = accounts[0]
   const partyA = accounts[2]
   const partyB = accounts[8]
@@ -29,6 +30,7 @@ contract('ArbitrableAddressList', function(accounts) {
   const clearingMetaEvidence = 'clearingMetaEvidence.json'
   const appealPeriodDuration = 1001
   const submissionAddr = 0x0
+  CanvasRenderingContext2D
 
   let appealableArbitrator
   let enhancedAppealableArbitrator
@@ -121,8 +123,8 @@ contract('ArbitrableAddressList', function(accounts) {
       assert.equal(
         (await web3.eth.getBalance(arbitrableAddressList.address)).toNumber(),
         baseDeposit +
-          arbitrationCost +
-          (sharedStakeMultiplier * arbitrationCost) / 10000
+        arbitrationCost +
+        (sharedStakeMultiplier * arbitrationCost) / 10000
       )
 
       const addr = await arbitrableAddressList.getAddressInfo(submissionAddress)
@@ -142,8 +144,8 @@ contract('ArbitrableAddressList', function(accounts) {
       assert.equal(
         await web3.eth.getBalance(arbitrableAddressList.address),
         baseDeposit +
-          arbitrationCost +
-          (sharedStakeMultiplier * arbitrationCost) / 10000
+        arbitrationCost +
+        (sharedStakeMultiplier * arbitrationCost) / 10000
       )
     })
 
