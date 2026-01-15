@@ -17,7 +17,7 @@ contract('AppealableArbitrator', function(accounts) {
   const arbitrator = accounts[1]
   const other = accounts[2]
   const timeOut = 100
-  const arbitrationFee = 2
+  const arbitrationFee = 3
   const choices = 2
   const arbitratorExtraData = 0x85
   const NOT_PAYABLE_VALUE = (2 ** 256 - 2) / 2
