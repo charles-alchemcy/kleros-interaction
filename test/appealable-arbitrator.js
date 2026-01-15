@@ -23,6 +23,7 @@ contract('AppealableArbitrator', function(accounts) {
   const NOT_PAYABLE_VALUE = (2 ** 256 - 2) / 2
   const partyA = accounts[3]
   const partyB = accounts[4]
+  
 
   it('Should set the correct values', async () => {
     const centralizedArbitrator = await CentralizedArbitrator.new(
