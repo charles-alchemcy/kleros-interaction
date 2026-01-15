@@ -6,6 +6,7 @@ const {
   increaseTime
 } = require('openzeppelin-solidity/test/helpers/increaseTime')
 
+
 const AppealableArbitrator = artifacts.require('./AppealableArbitrator.sol')
 const CentralizedArbitrator = artifacts.require('./CentralizedArbitrator.sol')
 // an ultimate arbitrable contract to test the final ruling option
