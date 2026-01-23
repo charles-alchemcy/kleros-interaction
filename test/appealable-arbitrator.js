@@ -20,7 +20,7 @@ contract('AppealableArbitrator', function(accounts) {
   const choices = 2
   const arbitratorExtraData = 0x85
   const NOT_PAYABLE_VALUE = (2 ** 256 - 2) / 2
-  const partyA = accounts[3]
+  const partyA = accounts[4]
   const partyB = accounts[4]
   
 
